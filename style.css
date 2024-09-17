@@ -1,0 +1,72 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        
+        }
+        .email-container {
+
+            max-width: 600px;
+            margin:  auto;
+            margin-top: 100px;
+            background-color: #f5d7d1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #171119;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content h2 {
+            color: #071625;
+            font-size: 20px;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .content a {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #171119;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .footer {
+            background-color: #171119;
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .social-icons img {
+            width: 24px;
+            margin: 0 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            .email-container {
+                width: 100%;
+                border-radius: 0;
+            }
+            .header, .content, .footer {
+                padding: 15px;
+            }
+        }
+    
